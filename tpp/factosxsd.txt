@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="lista">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="pais" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nome" type="xs:string"/>
+              <xs:element name="iso" type="xs:string"/>
+              <xs:element name="populacao" type="xs:string"/>
+              <xs:element name="capital" type="xs:string"/>
+              <xs:element name="moeda" type="xs:string"/>
+              <xs:element name="area" type="xs:string"/>
+              <xs:element name="crescimentoPopulacional" type="xs:string" minOccurs="0"/>
+              <xs:element name="cidadesMaisPopuladas" type="xs:string" minOccurs="0"/>
+              <xs:element name="dominioIT" type="xs:string"/>
+              <xs:element name="idiomas" type="xs:string" minOccurs="0"/>
+              <xs:element name="paisesVizinhos" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="iso" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <html>
+      <head>
+        <title>Países e suas Bandeiras</title>
+      </head>
+      <body>
+        <h1>Países e suas Bandeiras</h1>
+        <table border="1">
+          <tr>
+            <th>País</th>
+            <th>Bandeira</th>
+          </tr>
+          <xsl:for-each select="lista/pais">
+            <tr>
+              <td><xsl:value-of select="nome"/></td>
+              <td><img src="{bandeira}" alt="Bandeira de {nome}" width="125" height="auto"/></td>
+            </tr>
+          </xsl:for-each>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>

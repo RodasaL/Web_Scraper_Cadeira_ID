@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lista SYSTEM "factosdtd.txt">
+<lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="factosxsd.txt">
+     <pais>
+          <nome>Norway</nome>
+          <iso>NO</iso>
+          <populacao>5,467,439</populacao>
+          <capital>Oslo</capital>
+          <moeda />
+          <area>323,802 Square Kilometers</area>
+          <crescimentoPopulacional>0.33%</crescimentoPopulacional>
+          <cidadesMaisPopuladas>OSLO (capital) 915,000</cidadesMaisPopuladas>
+          <dominioIT>.no</dominioIT>
+          <idiomas>Bokmal Norwegian (official), Nynorsk Norwegian (official)</idiomas>
+          <paisesVizinhos>Northern Europe, bordering the North Sea and the North Atlantic Ocean, west of Sweden</paisesVizinhos>
+     </pais>
+     <pais iso="SE">
+          <nome>Sweden</nome>
+          <iso>SE</iso>
+          <populacao>10,202,491</populacao>
+          <capital>Stockholm</capital>
+          <moeda />
+          <area>450,295 Square Kilometers</area>
+          <crescimentoPopulacional>0.18%</crescimentoPopulacional>
+          <cidadesMaisPopuladas>STOCKHOLM (capital) 1.385 million</cidadesMaisPopuladas>
+          <dominioIT>.se</dominioIT>
+          <idiomas>Swedish</idiomas>
+          <paisesVizinhos>Northern Europe, bordering the Baltic Sea, Gulf of Bothnia, Kattegat, and Skagerrak, between Finland and Norway</paisesVizinhos>
+     </pais>
+     <pais iso="PT">
+          <nome>Portugal</nome>
+          <iso>PT</iso>
+          <populacao>10,302,674</populacao>
+          <capital>Lisbon</capital>
+          <moeda>Euro</moeda>
+          <area>92,090 Square Kilometers</area>
+          <crescimentoPopulacional>0.15%</crescimentoPopulacional>
+          <cidadesMaisPopuladas>LISBON (capital) 2.843 million; Porto 1.367 million</cidadesMaisPopuladas>
+          <dominioIT>.pt</dominioIT>
+          <idiomas>Portuguese (official), Mirandese (official - but locally used)</idiomas>
+          <paisesVizinhos>Southwestern Europe, bordering the North Atlantic Ocean, west of Spain</paisesVizinhos>
+     </pais>
+</lista>

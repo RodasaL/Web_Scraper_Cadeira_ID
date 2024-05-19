@@ -1,0 +1,10 @@
+xquery version "1.0";
+
+let $paises := doc("paises.xml")//pais
+let $ordenados := for $pais in $paises
+                  order by xs:integer(translate($pais/populacao, ',', '')) descending
+                  return $pais
+return 
+<lista>
+  {subsequence($ordenados, 1, 5)}
+</lista>

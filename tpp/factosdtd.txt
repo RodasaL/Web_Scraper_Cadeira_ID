@@ -1,0 +1,18 @@
+<!ELEMENT lista (pais+)>
+<!ELEMENT pais (nome, iso, populacao, capital, moeda, area, crescimentoPopulacional?, cidadesMaisPopuladas?, dominioIT, idiomas?, paisesVizinhos?)>
+<!ATTLIST pais iso CDATA #REQUIRED>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT iso (#PCDATA)>
+<!ELEMENT populacao (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+<!ELEMENT moeda (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT crescimentoPopulacional (#PCDATA)>
+<!ELEMENT cidadesMaisPopuladas (#PCDATA)>
+<!ELEMENT dominioIT (#PCDATA)>
+<!ELEMENT idiomas (#PCDATA)>
+<!ELEMENT paisesVizinhos (#PCDATA)>
+
+<!ATTLIST lista xmlns:xsi CDATA #IMPLIED>
+<!ATTLIST lista xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+

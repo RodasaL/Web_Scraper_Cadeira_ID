@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+   <pais xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" iso="CN">
+          <nome>China</nome>
+          <bandeira>//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/125px-Flag_of_the_People%27s_Republic_of_China.svg.png</bandeira>
+          <iso>CN</iso>
+          <populacao>1,409,670,000</populacao>
+          <continente/>
+          <presidente>Li Qiang</presidente>
+     </pais>
+   <pais xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" iso="NG">
+          <nome>Nigeria</nome>
+          <bandeira>//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/130px-Flag_of_Nigeria.svg.png</bandeira>
+          <iso>NG</iso>
+          <populacao>230,842,743</populacao>
+          <continente/>
+          <presidente>Bola Tinubu</presidente>
+     </pais>
+   <pais xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" iso="JP">
+          <nome>Japan</nome>
+          <bandeira/>
+          <iso>JP</iso>
+          <populacao>125,507,472</populacao>
+          <continente/>
+          <presidente/>
+     </pais>
+   <pais xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" iso="DE">
+          <nome>Germany</nome>
+          <bandeira>//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/125px-Flag_of_Germany.svg.png</bandeira>
+          <iso>DE</iso>
+          <populacao>84,607,016</populacao>
+          <continente>Europe</continente>
+          <presidente>Olaf Scholz</presidente>
+     </pais>
+   <pais xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" iso="SE">
+          <nome>Sweden</nome>
+          <bandeira>//upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/125px-Flag_of_Sweden.svg.png</bandeira>
+          <iso>SE</iso>
+          <populacao>10,540,886</populacao>
+          <continente>Europe</continente>
+          <presidente/>
+     </pais>
+</lista>
